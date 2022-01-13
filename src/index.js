@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Intro from './intro';
 import  Cover from './coverflow'
+import  {Contact} from './contact'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -11,6 +12,7 @@ ReactDOM.render(
     <App />
     <Intro/>
     <Cover/>
+    <Contact/>
   </React.StrictMode>,
   document.getElementById('root')
 );
