@@ -16,11 +16,7 @@
   font-family: 'Titillium Web', sans-serif;
 }
 
-#model{
-  height:500px;
-  width:500px;
 
-}
 h2{
   font-family: 'Titillium Web', sans-serif;
 }
@@ -42,9 +38,14 @@ h2{
   background-color: black;
 }
 
+#model{
+  height:500px;
+  width:500px;
+}
+
 @media only screen and(max-width:500px){
   #model{
-    height:100px;
-    width:100px;
+    height:200px;
+    width:200px;
   }
 }
