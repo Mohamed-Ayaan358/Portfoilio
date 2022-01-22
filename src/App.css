@@ -43,8 +43,9 @@ h2{
   width:500px;
 }
 
-@media only screen and(max-width:500px){
+@media (max-width:500px){
   #model{
-    display:none;
+    height:300px;
+    width:300px;
   }
 }
