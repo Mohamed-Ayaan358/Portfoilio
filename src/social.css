@@ -2,13 +2,15 @@
   background: black;
   padding-top:5vh;
   padding-bottom:5vh;
+  padding-left:45vw;
+      padding-right:45vw;
 }
   
-  #contacts{
+  /* #contacts{
       padding-left:45vw;
       padding-right:45vw;
       display: inline-block;
-  }
+  } */
 a.social {
   margin: 0 1rem;
   transition: transform 250ms;

@@ -4,7 +4,7 @@ import './App.css';
 function App() {
     return(
     <Navbar bg="black" expand="lg"  id="nav"style={{padding:"0px"}}>
-  <Container fluid style={{ maxHeight:'auto',padding:'60px'}}>
+  <Container fluid style={{ maxHeight:'auto',paddingTop:'60px'}}>
     <Navbar.Brand href="#" style={{color:"white",fontSize:'30px',fontWeight: "bold",paddingRight:"10vh"}}><img src="monitor.png"/>The IONsphere</Navbar.Brand>
     <Navbar.Toggle aria-controls="navbarScroll" />
     <Navbar.Collapse id="navbarScroll">
