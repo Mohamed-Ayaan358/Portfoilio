@@ -41,3 +41,10 @@ h2{
 #root{
   background-color: black;
 }
+
+@media only screen and(max-width:500px){
+  #model{
+    height:100px;
+    width:100px;
+  }
+}
