@@ -10,7 +10,7 @@ function Intro() {
   <Row>
     <Col >
     <img className="circular--square" src="ayaan.jpeg" />
-    <p className="row " style={{color:"#2DD4BF",fontWeight: "bold" ,paddingRight:"10vh" ,paddingTop:"40px" ,fontSize:"40px"}}>
+    <p className="row" id="para" >
         Hi ! My name is Mohamed Ayaan and I am an aspiring web developer.
     </p></Col>
     <Col  lg={4}>

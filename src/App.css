@@ -29,7 +29,7 @@ h2{
             border-bottom-left-radius: 50% 50%;
             height: 200px;
             width: 200px;
-            border: black 5px solid;
+            border: #2DD4BF 5px solid;
             /* margin-left: 40px;
             margin-top: 50px; */
         }
@@ -42,10 +42,27 @@ h2{
   height:500px;
   width:500px;
 }
+#para
+{
+  padding-left:10px;
+  color:#2DD4BF;
+  font-weight: bold;
+  padding-right:10vh;
+  padding-top:40px;
+  font-size:40px;
+}
 
 @media (max-width:500px){
   #model{
     height:260px;
     width:260px;
+  }
+  #para{
+    padding-left:10px;
+     color:#2DD4BF;
+  font-weight: bold;
+  padding-right:10vh;
+  padding-top:40px;
+    font-size:20px;
   }
 }
