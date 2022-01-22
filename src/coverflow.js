@@ -26,8 +26,8 @@ class Cover extends Component {
     return (
     
         <Coverflow
-    width={960}
-    height={480}
+    width={500}vh
+    height={500}vh
     displayQuantityOfSide={2}
     navigation={false}
     enableHeading={false}

@@ -53,59 +53,54 @@ export const Contact = (props) => {
       };
 
     return (
-        <div>
-        <div style={{padding:"17vh",paddingBottom:"5vh"}}>
-        <Button  className="mb-3" onClick={handleClick1} variant="outline-dark">Contact</Button><Button  className="mb-3" onClick={handleClick2} variant="outline-dark">Comission</Button>
+        <div style={{backgroundColor:"black"}}>
+        <div style={{padding:"10vh",paddingBottom:"5vh"}}>
+        <Button  className="mb-3" style={{border:"1px #2DD4BF solid ",color:"#2DD4BF"}} onClick={handleClick1} variant="outline-dark">Contact</Button><Button style={{border:"1px #2DD4BF solid ",color:"#2DD4BF"}}  className="mb-3" onClick={handleClick2} variant="outline-dark">Comission</Button>
         <Form id="form1">
             <Form.Group as={Col} controlId="formGridName">
-                <Form.Label>Name*</Form.Label>
+                <Form.Label style={{color:"#2DD4BF"}} >Name*</Form.Label>
                 <Form.Control onChange= {handleChange} name="name" type="name" placeholder="Name" />
             </Form.Group>
 
             <Form.Group as={Col} controlId="formGridEmail">
-                <Form.Label>Email*</Form.Label>
+                <Form.Label style={{color:"#2DD4BF"}} >Email*</Form.Label>
                 <Form.Control onChange= {handleChange} name="email" type="email" placeholder="Enter email"
                 />
             </Form.Group>
             <Form.Group as={Col} controlId="formGridMobile">
-                <Form.Label>Mobile no.*</Form.Label>
+                <Form.Label style={{color:"#2DD4BF"}} >Mobile no.*</Form.Label>
                 <Form.Control onChange= {handleChange} name="mobile" placeholder="" />
             </Form.Group>
             <Form.Group as={Col} id="formGridQuery">
-                <Form.Label>Query*</Form.Label>
+                <Form.Label style={{color:"#2DD4BF"}} >Query*</Form.Label>
                 <Form.Control onChange= {handleChange} name="query" as="textarea" rows={3} />
             </Form.Group>
 
-            <Button onClick={handleSubmit} variant="primary" type="submit">
+            <Button onClick={handleSubmit} style={{border:"1px #2DD4BF solid ",color:"#2DD4BF",backgroundColor:"black"}}  type="submit">
                 Submit
                 </Button>
         </Form >
 
         <Form style={{display: "none"}} id="form2">
             <Form.Group as={Col} controlId="formGridName">
-                <Form.Label>Name*</Form.Label>
+                <Form.Label style={{color:"#2DD4BF"}} >Name*</Form.Label>
                 <Form.Control onChange= {handleChange} name="name" type="name" placeholder="Name" />
             </Form.Group>
 
             <Form.Group as={Col} controlId="formGridEmail">
-                <Form.Label>Email*</Form.Label>
+                <Form.Label style={{color:"#2DD4BF"}} >Email*</Form.Label>
                 <Form.Control onChange= {handleChange} name="email" type="email" placeholder="Enter email"
                 />
             </Form.Group>
             <Form.Group as={Col} id="formGridQuery">
-                <Form.Label>Details* [Include any details pertaining to the project and the budget]</Form.Label>
+                <Form.Label style={{color:"#2DD4BF"}} >Details* [Include any details pertaining to the project and the budget]</Form.Label>
                 <Form.Control onChange= {handleChange} name="query" as="textarea" rows={3} />
             </Form.Group>
         
-            <Button onClick={handleSubmit} variant="primary" type="submit">
+            <Button onClick={handleSubmit} style={{border:"1px #2DD4BF solid ",color:"#2DD4BF",backgroundColor:"black"}} type="submit">
                 Submit
                 </Button>
         </Form >
-        </div>
-        <div style={{paddingLeft:"40%",paddingBottom:"5%"}}>
-        <a href="https://github.com/Mohamed-Ayaan358" ><img src='github-logo.png' alt="contact" style={{paddingRight:"1%"}} /></a>
-        <a href="https://www.linkedin.com/in/mohamed-ayaan-1750311b8/"><img src='linkedin.png' alt="contact" style={{paddingRight:"1%"}}/></a>
-        <a href="tel:8861467274"><img src='whatsapp.png' alt="contact" /></a>
         </div>
         </div>
 

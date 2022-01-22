@@ -2,16 +2,19 @@ import './App.css';
 import React, { Component } from "react";
 import {Container,Row,Col} from 'react-bootstrap';
 function Intro() {
+  function sayHello() {
+    alert('Hello!');
+  }
     return(
-        <Container>
+        <Container style={{backgroundColor:"black"}}>
   <Row>
-    <Col sm={8}>
+    <Col >
     <img className="circular--square" src="ayaan.jpeg" />
-    <h2 className="row " style={{color:"black",fontWeight: "bold" ,paddingRight:"150px" ,paddingTop:"40px" ,fontSize:"40px"}}>
+    <p className="row " style={{color:"#2DD4BF",fontWeight: "bold" ,paddingRight:"10vh" ,paddingTop:"40px" ,fontSize:"40px"}}>
         Hi ! My name is Mohamed Ayaan and I am an aspiring web developer.
-    </h2></Col>
-    <Col sm={4}>
-    <model-viewer id="model" src="laptop.glb" autorotate camera-controls></model-viewer></Col>
+    </p></Col>
+    <Col lg={4}>
+    <model-viewer onClick={sayHello} style={{backgroundColor:"black"}} id="model" src="laptop.glb" autorotate camera-controls></model-viewer></Col>
   </Row>
   
 </Container>  

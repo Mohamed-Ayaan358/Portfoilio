@@ -6,13 +6,14 @@ import Intro from './intro';
 import  Cover from './coverflow'
 import  {Contact} from './contact'
 import reportWebVitals from './reportWebVitals';
-
+import SocialFollow from "./social"
 ReactDOM.render(
   <React.StrictMode>
     <App />
     <Intro/>
     <Cover/>
     <Contact/>
+    <SocialFollow/>
   </React.StrictMode>,
   document.getElementById('root')
 );

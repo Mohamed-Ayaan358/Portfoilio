@@ -1,0 +1,35 @@
+.social-container {
+  background: black;
+  padding-top:5vh;
+  padding-bottom:5vh;
+}
+  
+  #contacts{
+      padding-left:45vw;
+      padding-right:45vw;
+      display: inline-block;
+  }
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+a.social:hover {
+  transform: translateY(-2px);
+}
+a.youtube {
+  color: #2DD4BF;
+}
+
+a.facebook {
+  color: #2DD4BF;
+}
+
+a.twitter {
+  color: #2DD4BF;
+}
+
+a.instagram {
+  color: #2DD4BF;
+
+}

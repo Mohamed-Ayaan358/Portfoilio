@@ -5,21 +5,20 @@ function App() {
     return(
     <Navbar bg="black" expand="lg"  id="nav"style={{padding:"0px"}}>
   <Container fluid style={{ maxHeight:'auto',padding:'60px'}}>
-    <Navbar.Brand href="#" style={{color:"white",fontSize:'30px',fontWeight: "bold",paddingRight:"300px"}}>The IONsphere</Navbar.Brand>
+    <Navbar.Brand href="#" style={{color:"white",fontSize:'30px',fontWeight: "bold",paddingRight:"10vh"}}><img src="monitor.png"/>The IONsphere</Navbar.Brand>
     <Navbar.Toggle aria-controls="navbarScroll" />
     <Navbar.Collapse id="navbarScroll">
       <Nav
         className="me-auto my-2 my-lg-0"
-        navbarScroll
+        navbarscroll
       >
         <Nav.Link  style={{color:"white",fontWeight: "bold",paddingRight:"150px",paddingTop:'40px'}} className="me-auto my-2 my-lg-0" href="#action1">Home</Nav.Link>
-        <Nav.Link style={{color:"white",fontWeight: "bold",paddingRight:"150px",paddingTop:'40px'}} href="#action2">Link</Nav.Link>
-        <NavDropdown title="Link" id="navbarScrollingDropdown">
-          <NavDropdown.Item style={{fontWeight: "bold"}} href="#action3">Action</NavDropdown.Item>
-          <NavDropdown.Item style={{fontWeight: "bold"}} href="#action4">Another action</NavDropdown.Item>
-          <NavDropdown.Divider />
+        <Nav.Link style={{color:"white",fontWeight: "bold",paddingRight:"150px",paddingTop:'40px'}} href="#action2">Contact</Nav.Link>
+        <Nav.Link style={{color:"white",fontWeight: "bold",paddingRight:"150px",paddingTop:'40px'}} href="#action2">Ideas</Nav.Link>
+        <Nav.Link style={{color:"white",fontWeight: "bold",paddingRight:"150px",paddingTop:'40px'}} href="#action2">Projects</Nav.Link>
+       
         
-        </NavDropdown>
+
        
       </Nav>
       {/* <Form className="d-flex">
